@@ -26,6 +26,9 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://0perationprivacy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 0perationP
 github_username:  0perationPrivacy
+author: Operation Privacy
+
+copyright: "Operation Privacy"
 
 # Build settings
 # Removed default theme 
