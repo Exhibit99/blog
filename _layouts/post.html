@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry card">
 
   <header class="post-header">
     {%- if page.image -%}
       <img src="{{- page.image | relative_url -}}" alt="" class="featured-image">
     {%- else -%}
-      {%- assign postimage = "/images/default.jpg" -%}
+      {%- assign postimage = "/img/default.jpg" -%}
       <img src="{{- postimage | relative_url -}}" alt="" class="featured-image">
     {%- endif -%}
     
@@ -20,15 +20,16 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
+      <hr>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+{%- if site.disqus.shortname -%}
+{%- include disqus_comments.html -%}
+{%- endif -%}
