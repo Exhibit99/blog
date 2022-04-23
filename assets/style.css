@@ -678,16 +678,16 @@ section {
     background-color: rgb(var(--white));
 }
 
-.faq .faq-list {
+.post-list .faq-list {
     padding: 0 100px;
 }
 
-.faq .faq-list ul {
+.post-list .faq-list ul {
     padding: 0;
     list-style: none;
 }
 
-.faq .faq-list li {
+.post-list .faq-list li {
     padding: 5px 0px 5px 5px;
     position: relative;
     list-style-type: disc;
@@ -696,13 +696,13 @@ section {
     margin-left: 15px;
 }
 
-.faq .faq-list p {
+.post-list .faq-list p {
     margin-bottom: 0;
     padding: 10px 0 0 0;
 }
 
 @media (max-width: 1200px) {
-    .faq .faq-list {
+    .post-list .faq-list {
         padding: 0;
     }
 }
