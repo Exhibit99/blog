@@ -6,16 +6,15 @@ layout: default
 
   {%- include main.html -%}
 
-
   {{ content }}
 
-
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
   {%- if site.posts.size > 0 -%}
-
     {% include feed.html %}
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
+  
+</section>
+</main>
 
 </div>
 
