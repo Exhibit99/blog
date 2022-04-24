@@ -212,18 +212,18 @@ h6 {
 
 /* *
 * Mobile Navigation */
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
     color: rgb(var(--dark-orange));
     font-size: 28px;
     cursor: pointer;
     display: none;
     line-height: 0;
     transition: 0.5s;
-}
+} */
 
-.mobile-nav-toggle.fas {
+/* .mobile-nav-toggle.fas {
     color: rgb(var(--white));
-}
+} */
 
 .header-scrolled .mobile-nav-toggle.fas {
     color: gray;
@@ -368,7 +368,7 @@ h6 {
 }
 
 #hero h2 {
-    color: rgb(var(--white));
+    color: rgb(var(--orange));
     margin-bottom: 30px;
     font-size: 24px;
 }

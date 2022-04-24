@@ -3,6 +3,17 @@ Template Name: Mediumish
 Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
 License: https://www.wowthemes.net/freebies-license/ 
 */
+
+:root {
+    --orange: 255, 88, 33;
+    --dark-orange: 78, 66, 63;
+    --logo-orange: 244, 179, 36;
+    --black: 18, 18, 18;
+    --white: 245, 245, 245;
+    --gray: 49, 48, 48;
+}
+
+
 @media screen and (min-width:1500px) {
     html { font-size:18px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
@@ -72,7 +83,7 @@ section.recent-posts {
 }
 
 .section-title span {
-    border-bottom: 1px solid rgba(0, 0, 0, .44);
+    border-bottom: 1px solid rgb(255, 88, 33);
     display: inline-block;
     padding-bottom: 20px;
     margin-bottom: -1px;
