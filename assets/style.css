@@ -786,3 +786,23 @@ section {
 .infoSections ul {
     margin-bottom: 0px;
 }
+
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+  }
+  .shadow-lg {
+      border-radius: 1rem;
+  }
