@@ -6,14 +6,10 @@ layout: default
 
   {%- include main.html -%}
 
-  {{ content }}
-
-
 
   {%- include featured.html -%}
 
   {%- if site.posts.size > 0 -%}
-    {% include feed.html %}
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 

@@ -185,7 +185,7 @@ body {
  }
  .card {
    border: none;
-   border-radius: 1rem;
+  //  border-radius: 1rem;
  }
 .page-content {
   // padding: $spacing-unit 0;
@@ -361,7 +361,6 @@ body {
 .categories {
   float: right;
   padding-right: 10px;
-  padding-top: 5px;
   color: lightgray;  
   font-family: arial;
   font-size: 14px;
