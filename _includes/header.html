@@ -1,28 +1,43 @@
 <!-- ======= Header ======= -->         
  <header id="header" class="d-flex align-items-center"> 
-    <div class="container d-flex justify-content-center"> 
-        <nav id="navbar" class="navbar"> 
-            <ul>                                       
-               
-                <li>
-                    <div class="logo nav-link scrollto active"> 
-                        <a href="https://www.OperationPrivacy.com"><img src="{{"/img/logo-b.svg" | relative_url }}" alt="Operation Privacy" class="img-fluid" title="Operation Privacy"></a> 
-                    </div>
-                </li>                         
-                <li>
-                    <a href="/blog/" title="Blog Home">Blog</a>
-                </li>                         
-                                        
-            </ul>   
-        </nav>
-        <!-- .navbar -->                 
-    </div>  
+    <div class="container d-flex justify-content-lg-center fixed-top"> 
 
-    {% include search-lunr.html %}
+        <!-- Navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg "> 
+        <div class="container-fluid">
+            
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            
+            <div class="logo"> 
+                <a href="https://www.OperationPrivacy.com"><img src="{{"/img/logo-b.svg" | relative_url }}" alt="Operation Privacy" class="img-fluid" title="Operation Privacy"></a> 
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarMediumish">
+        
+                <!-- Begin Menu -->
+                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{"{{site.url}}/Blog/" | relative_url }}">Blog</a>
+                    </li>
+                    <li>
+                        <a class="btn-buy" href="https://dashboard.OperationPrivacy.com/login" target="_pg_blank"
+                            title="Dashboard Login">Login</a>
+                    </li>
+                    
+                    {% include search-lunr.html %}
+                    </ul>
+                </div>   <!-- End Menu -->
+        </div>     
+        </nav> <!-- .navbar -->
+         
+        </div>   <!-- container -->
+                        
   
-    <div class="m-4">
-        <a class="btn-buy" href="https://dashboard.OperationPrivacy.com/login" target="_pg_blank" title="Dashboard Login">Login</a>
-    </div>       
+ 
+    
 </header>
 
 <!-- End Header -->     

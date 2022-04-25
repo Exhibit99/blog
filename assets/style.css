@@ -176,10 +176,11 @@ h6 {
 }
 
 .navbar li {
-    margin-left: 5px;
+    /* margin-left: 5px;
     margin-right: 5px;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: auto; */
+    margin: 5px;
     position: relative;
     display: block;
 }
@@ -806,3 +807,32 @@ button.close {
   .shadow-lg {
       border-radius: 1rem;
   }
+
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 88, 33, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+ }
+
+ .navbar-toggler {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+ }
+
+ .lunrsearchresult .title {color: #d9230f;}
+ .lunrsearchresult .url {color: silver;}
+ .lunrsearchresult a {
+     display: block;
+     color: #777;
+     white-space: normal;
+    }
+ .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+ .lunrsearchresult a:hover .title {text-decoration: underline;}
+ 
+ @media (max-width: 991px) {
+ #navbarMediumish {
+     background-color: rgba(239, 213, 192, 0.57);
+     border-radius: 5px;
+     padding: 5px;
+ }
+}
