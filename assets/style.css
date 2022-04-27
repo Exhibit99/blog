@@ -836,3 +836,7 @@ button.close {
      padding: 5px;
  }
 }
+
+.post-content hr {
+    margin-bottom: 2em;
+}

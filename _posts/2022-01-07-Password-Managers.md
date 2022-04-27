@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "All About Password Managers"
-date:   2022-04-29 01:09:00 -0500
+date:   2022-03-29 01:09:00 -0500
 categories: security
 image: img/default.jpg
-featured: true
 ---
 
 ... coming soon ....
