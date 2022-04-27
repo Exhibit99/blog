@@ -29,6 +29,7 @@ github_username:  0perationPrivacy
 author: Operation Privacy
 
 copyright: "Operation Privacy"
+future: false
 
 # disqus: 
 #     shortname: "op009"
