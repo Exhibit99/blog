@@ -44,3 +44,19 @@ image: img/default.jpg
 ... coming soon ....
 ... coming soon ....
 ... coming soon ....
+
+# Options
+
+# Online vs Offline Only
+
+# Backup
+
+# TOTP Codes
+
+Besides just passwords, password managers can also generate TOTP codes (the 6 digit codes used for multifactor authentication that expire in 30 seconds).\
+\
+For convenience, you can use the same application to store your passwords alongwith the TOTP codes. But security enthusiasts argue that this is keeping all your eggs in one basket.\
+\
+Ideally, you should use a separate application for your multifactor authentication codes in case your password manager gets hacked, the adverary will not also have your login codes.\
+\
+.
