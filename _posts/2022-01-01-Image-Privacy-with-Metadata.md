@@ -38,7 +38,7 @@ But if you're sending images or documents through email or shared drives, you re
 
     If you're using a Mac, an easy open-source tool is [ImageOptim.com/Mac](https://imageoptim.com/mac). You can simply right-click on an image file and `Open With > ImageOptim.app`. It will stip off all the metadata.
 
-    ![ImageOptim](/img/ImageOptim-app.png "ImageOptim")
+    ![ImageOptim]("{{"/img/ImageOptim-app.png" | relative_url }}" "ImageOptim")
 
 - ### Windows, Linux, Mac
 
