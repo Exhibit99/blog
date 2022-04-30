@@ -39,6 +39,7 @@ But if you're sending images or documents through email or shared drives, you re
     If you're using a Mac, an easy open-source tool is [ImageOptim.com/Mac](https://imageoptim.com/mac). You can simply right-click on an image file and `Open With > ImageOptim.app`. It will stip off all the metadata.
 
     ![ImageOptim]({{ site.url }}{{ site.baseurl }}/img/ImageOptim-app.png "ImageOptim")
+
 - ### Windows, Linux, Mac
 
     A great cross-platform and open-source offline tool is [exifCleaner.com](https://exifcleaner.com/). You simply run the application and drag and drop any files into the window. It will show you what exif data was in it and clean the rest. It will not ask you to confirm removal, it will just remove it the moment you drag it to its interface. Great if you want to save time and clean files in bulk. It will accept many file formats including pdf, images, and videos. It will not strip information from docx files though. 

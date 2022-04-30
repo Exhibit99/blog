@@ -840,3 +840,7 @@ button.close {
 .post-content hr {
     margin-bottom: 2em;
 }
+
+.post-content h1, .post-content h2, .post-content h3 {
+    margin-top: 15px;
+}
