@@ -4,6 +4,7 @@ title:  "Image Privacy with Metadata"
 date:   2022-04-30 00:00:00 -0500
 categories: privacy
 image: img/default.jpg
+author: Operation Privacy
 ---
 
 # MetaData

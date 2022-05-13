@@ -1,13 +1,27 @@
 ---
 layout: post
-title:  "Should I Freeze My Kids Credit"
-date:   2022-03-20 22:09:00 -0500
-categories: privacy
+title:  "Email DNS Security"
+date:   2022-05-20 00:00:00 -0500
+categories: security
 image: img/default.jpg
-featured: false
+author: Operation Privacy
 ---
 
-# Welcome
+# DNS Records (Cheat Sheet)
+
+Basic examples
+
+## 1. SFP
+
+## 2. DKIM
+
+## 3. DMARC
+
+## 4. DNSSec
+
+## CloudFlare / Namecheap Example
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum dui faucibus in ornare quam viverra orci. Ultrices sagittis orci a scelerisque. Viverra accumsan in nisl nisi scelerisque. Eget est lorem ipsum dolor. Mi sit amet mauris commodo. Pretium nibh ipsum consequat nisl vel pretium. Augue eget arcu dictum varius. Amet justo donec enim diam vulputate ut. Nisl vel pretium lectus quam. Fames ac turpis egestas sed tempus urna et pharetra pharetra. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Turpis egestas maecenas pharetra convallis posuere morbi leo. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum. Sed augue lacus viverra vitae congue eu. Leo urna molestie at elementum eu. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Enim ut tellus elementum sagittis vitae et leo duis ut. Augue neque gravida in fermentum et sollicitudin.
 
