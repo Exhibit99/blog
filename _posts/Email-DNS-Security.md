@@ -3,7 +3,7 @@ layout: post
 title:  "Email DNS Security"
 date:   2022-05-20 00:00:00 -0500
 categories: security
-image: img/default.jpg
+image: img/blog/dns.gif
 author: Operation Privacy
 ---
 

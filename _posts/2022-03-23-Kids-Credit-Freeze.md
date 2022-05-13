@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Should I Freeze My Kids Credit"
-date:   2022-03-20 22:09:00 -0500
-categories: privacy
-image: img/default.jpg
+date:   2022-05-15 20:00:00 -0500
+categories: security
+image: img/blog/kids-freeze.gif
+author: Operation Privacy
 featured: false
 ---
 

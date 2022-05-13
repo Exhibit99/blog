@@ -3,7 +3,8 @@ layout: post
 title:  "All About Password Managers"
 date:   2022-03-29 01:09:00 -0500
 categories: security
-image: img/default.jpg
+image: img/blog/password-managers.gif
+author: Operation Privacy
 ---
 
 ... coming soon ....
@@ -67,6 +68,12 @@ No matter what option you use, you must backup the database. There's always a ch
     - I prefer JSON instead of CSV as it maintains the folders, categories, notes, custom fields, etc. You loose [that] with the CSV output and may have trouble importing it back in if you need to.
 
 There have been incidences where a bug in the application or plugin caused the database to be unsuable or whiped it clean. Some people will forget their master password. To avoid being in this scenario, always backup data, especially if it's this critical. Always encrypt your backup as well as anyone with physical access can browse though everything.
+
+# Usernames
+
+# Notes
+
+
 
 # TOTP Codes
 

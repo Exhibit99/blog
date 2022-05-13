@@ -3,7 +3,8 @@ layout: post
 title:  "How To Use Alias Emails"
 date:   2022-04-27 00:00:00 -0500
 categories: privacy
-image: img/default.jpg
+author: Operation Privacy
+image: img/blog/aliases.gif
 featured: true
 ---
 You should be very selective in using your true email address. Instead you should have a strategy of providing junk alias addresses that forward emails to your primary email address. You should be able to produce them quickly and you should not be logging into 10 places to manage your email strategy.
