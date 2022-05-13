@@ -350,7 +350,7 @@ span.post-read-more a:hover {
 blockquote {
     border-left: 4px solid #00ab6b;
     padding: 0 20px;
-    font-style: italic;
+    /* font-style: italic; */
     color: rgba(0, 0, 0, .5);
 }
 
@@ -696,7 +696,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Skia", sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .article-post .h1,

@@ -844,3 +844,7 @@ button.close {
 .post-content h1, .post-content h2, .post-content h3 {
     margin-top: 15px;
 }
+
+code {
+    color: #d05810;
+}

@@ -93,8 +93,12 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+}
+
+h1, h2 {
+  font-weight: 700;
 }
 
 
@@ -134,8 +138,9 @@ blockquote {
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+  // letter-spacing: -1px;
+  // font-style: italic;
+  font-family: inherit;
 
   > :last-child {
     margin-bottom: 0;
