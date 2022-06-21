@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Avoiding Stingrays"
-date:   2022-05-22 22:09:00 -0500
+date:   2023-05-22 22:09:00 -0500
 categories: privacy
 image: img/default.jpg
 featured: false

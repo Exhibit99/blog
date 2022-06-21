@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Should I Freeze My Kids Credit"
-date:   2022-05-15 20:00:00 -0500
+date:   2023-05-15 20:00:00 -0500
 categories: security
 image: img/blog/kids-freeze.gif
 author: Operation Privacy
